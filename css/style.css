@@ -3,6 +3,7 @@ body {
   background-color: #f5f7fa;
   /* font-size: 17px; */
   font-weight: 400;
+  background-color: rgb(129, 129, 129);
 
 }
 /* Reset and base styles  */
@@ -157,34 +158,34 @@ legend {
   margin-left: 10px;
   font-size: 20px;
   font-weight: 700;
-  color: red;
+  color: rgb(45, 45, 45);
 }
 .lang-title{
   margin-top: 10px;
   /* margin-left: 30px; */
-  color: red;
+  color: rgb(45, 45, 45);
   font-weight: 600;
 }
 .lang-title::before{
   font-weight: 700;
   content: "1.";
   margin-right: 5px;
-  color: red;
+  color: rgb(45, 45, 45);
 }
 .second-lang-title{
   margin-top: 10px;
   /* margin-left: 30px; */
-  color: red;
+color: rgb(45, 45, 45);
   font-weight: 600;
 }
 .second-lang-title::before {
   font-weight: 700;
   content: "2.";
   margin-right: 5px;
-  color: red;
+  color: rgb(45, 45, 45);
 }
-.Lang-list{
-  color: red;
+.lang-list{
+  color: rgb(45, 45, 45);
 }
 .lang-items{
   list-style: inside;
@@ -207,6 +208,7 @@ legend {
 .lang-item-btn:hover{
   width: 140px;
   opacity: 0.5;
+  background-color: #7e3939b5;
 }
 .first-title{
   width: 150px;
@@ -290,27 +292,27 @@ color: rgb(129, 63, 1);
   align-items: center;
   font-size: 20px;
   font-weight: 900;
-  border-top: 2px solid rgb(255, 123, 0);
-  border-bottom: 2px solid rgb(255, 123, 0);
-  color: rgb(255, 123, 0);
+  border-top: 2px solid rgba(210, 185, 0, .7);
+  border-bottom: 2px solid rgba(210, 185, 0, .7);
+  color: rgba(210, 185, 0, .7);
 }
 .third-text {
   display: flex;
   justify-content: flex-end;
   margin-top: 20px;
-  color: rgb(255, 123, 0);
+  color: rgba(210, 185, 0, .7);
 }
 .third-span{
   display: flex;
   justify-content: flex-end;
-  color: rgb(255, 123, 0);
+  color: rgba(210, 185, 0, .7);
 }
 
 .third-long-text {
   font-weight: 600;
   margin-left: 30px;
   margin-top: 20px;
-  color: rgb(255, 123, 0);
+  color: rgba(210, 185, 0, .7);
 }
 .fourth-title{
   width: 150px;
