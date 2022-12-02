@@ -1,0 +1,65 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f5f7fa;
+  /* font-size: 17px; */
+  font-weight: 600;
+
+}
+a { 
+  text-decoration: none;
+}
+/* внешние границы таблицы серого цвета толщиной 1px */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 20px;
+  /* width: 500px; */
+  
+  border: 2px solid grey;
+}
+
+/* границы ячеек первого ряда таблицы */
+th {
+  padding: 10px;
+  width: 500px;
+  background-color: aquamarine;
+  border: 2px solid grey;
+}
+
+/* границы ячеек тела таблицы */
+td {
+  /* width: 500px; */
+  border: 2px solid grey;
+  padding: 5px;
+  width: 250px;
+  background-color: antiquewhite;
+}
+tr{
+    /* display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: rgba(0, 58, 151, 0.54);
+}
+.container__img{
+  cursor: pointer;
+}
+.container__item{
+  margin-left: 50px;
+  font-weight: 700;
+  /* height: 50px; */
+}
